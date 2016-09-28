@@ -13,7 +13,7 @@ namespace MeetUp
     public partial class MainPage : ContentPage
     {
         public const string GroupName = "Software-Craftsmanship-Peru";
-        private readonly EventService _eventService = new EventService("27306b1c66225d4368806310c313");
+        private readonly EventService _eventService = new EventService("");
         public MainPage()
         {
             InitializeComponent();
